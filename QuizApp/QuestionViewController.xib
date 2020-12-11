@@ -32,7 +32,8 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="Kp0-Zy-8xM"/>
+                        <outlet property="dataSource" destination="-1" id="xKh-v9-1pw"/>
+                        <outlet property="delegate" destination="-1" id="h0f-kV-AaF"/>
                     </connections>
                 </tableView>
             </subviews>
