@@ -12,6 +12,10 @@
 		3A221FFA2582C5AB00F45AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A221FF82582C5AB00F45AA5 /* LaunchScreen.storyboard */; };
 		3A291F0325A373620004B968 /* CorrectAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A291F0225A373620004B968 /* CorrectAnswerCell.xib */; };
 		3A291F0725A37BE60004B968 /* WrongAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A291F0625A37BE60004B968 /* WrongAnswerCell.xib */; };
+		3A291F0B25A38A9E0004B968 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A291F0A25A38A9E0004B968 /* UITableViewExtension.swift */; };
+		3A291F0F25A38B1E0004B968 /* PresentableAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A291F0E25A38B1E0004B968 /* PresentableAnswer.swift */; };
+		3A291F1325A38B740004B968 /* CorrectAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A291F1225A38B740004B968 /* CorrectAnswerCell.swift */; };
+		3A291F1725A38B9C0004B968 /* WrongAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A291F1625A38B9C0004B968 /* WrongAnswerCell.swift */; };
 		3A8768802582D0AD00EA1AB0 /* QuestionViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A87687F2582D0AD00EA1AB0 /* QuestionViewControllerTest.swift */; };
 		3A8768912582D97E00EA1AB0 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A87688F2582D97E00EA1AB0 /* QuestionViewController.swift */; };
 		3A8768922582D97E00EA1AB0 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8768902582D97E00EA1AB0 /* QuestionViewController.xib */; };
@@ -41,6 +45,10 @@
 		3A2220062582C5AB00F45AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A291F0225A373620004B968 /* CorrectAnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CorrectAnswerCell.xib; sourceTree = "<group>"; };
 		3A291F0625A37BE60004B968 /* WrongAnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WrongAnswerCell.xib; sourceTree = "<group>"; };
+		3A291F0A25A38A9E0004B968 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		3A291F0E25A38B1E0004B968 /* PresentableAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentableAnswer.swift; sourceTree = "<group>"; };
+		3A291F1225A38B740004B968 /* CorrectAnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectAnswerCell.swift; sourceTree = "<group>"; };
+		3A291F1625A38B9C0004B968 /* WrongAnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongAnswerCell.swift; sourceTree = "<group>"; };
 		3A87687F2582D0AD00EA1AB0 /* QuestionViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewControllerTest.swift; sourceTree = "<group>"; };
 		3A87688F2582D97E00EA1AB0 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		3A8768902582D97E00EA1AB0 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
@@ -96,6 +104,10 @@
 				3A87688F2582D97E00EA1AB0 /* QuestionViewController.swift */,
 				3A8768902582D97E00EA1AB0 /* QuestionViewController.xib */,
 				3A8768A5258309AB00EA1AB0 /* ResultsViewController.swift */,
+				3A291F1625A38B9C0004B968 /* WrongAnswerCell.swift */,
+				3A291F1225A38B740004B968 /* CorrectAnswerCell.swift */,
+				3A291F0E25A38B1E0004B968 /* PresentableAnswer.swift */,
+				3A291F0A25A38A9E0004B968 /* UITableViewExtension.swift */,
 				3A291F0625A37BE60004B968 /* WrongAnswerCell.xib */,
 				3A291F0225A373620004B968 /* CorrectAnswerCell.xib */,
 				3A8768A6258309AB00EA1AB0 /* ResultsViewController.xib */,
@@ -220,7 +232,11 @@
 			files = (
 				3A221FEE2582C5AA00F45AA5 /* AppDelegate.swift in Sources */,
 				3A8768912582D97E00EA1AB0 /* QuestionViewController.swift in Sources */,
+				3A291F1725A38B9C0004B968 /* WrongAnswerCell.swift in Sources */,
 				3A8768A7258309AB00EA1AB0 /* ResultsViewController.swift in Sources */,
+				3A291F0F25A38B1E0004B968 /* PresentableAnswer.swift in Sources */,
+				3A291F1325A38B740004B968 /* CorrectAnswerCell.swift in Sources */,
+				3A291F0B25A38A9E0004B968 /* UITableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
